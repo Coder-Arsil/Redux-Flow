@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+  }
+  .btns{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+  }
+  .btns button{
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+}
+.btns button:hover{
+  background-color: white;
+  color: black;
+}
